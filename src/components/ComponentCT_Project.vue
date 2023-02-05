@@ -1,9 +1,9 @@
 <template>
     <div id="content">
       <h1>
-        Project Management 
+        Component Project 
       </h1>
-    </div>
+    </div> 
 </template>
 
 <script>
@@ -14,7 +14,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-#content {
-  flex-basis: 85%;
-}
+
 </style>

@@ -1,12 +1,7 @@
 <template>
-  <div id="maincontent">
-    <div id="content">
-      <h1>
-        ComponentCT_Account 
-      </h1>
-    </div>
-  </div>
-
+  <h1>
+    Component Account 
+  </h1>
 </template>
 
 <script>
@@ -17,7 +12,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-#content {
-  flex-basis: 85%;
-}
 </style>
