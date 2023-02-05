@@ -1,21 +1,22 @@
 <template>
   <div>
     <ComponentHeader/>
-    <ComponentMainContent/>
-    <router-view class="view"></router-view>
+    <div id="maincontent">
+      <ComponentSlidebar/>
+      <router-view></router-view>
+    </div>
   </div>
-
 </template>
 
 <script>
 import ComponentHeader from "./components/ComponentHeader.vue";
-import ComponentMainContent from "./components/ComponentMainContent.vue";
+import ComponentSlidebar from "./components/ComponentSlidebar.vue";
 
 export default {
   name: 'App',
   components: {
     ComponentHeader,
-    ComponentMainContent,
+    ComponentSlidebar,
   },
   data() {
     return {
@@ -39,6 +40,8 @@ export default {
 
 #slidebar {
   flex-basis: 15%;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 20px rgb(0 0 0 / 15%);
 }
 #content {
   flex-basis: 85%;
