@@ -45,5 +45,6 @@ export default {
 }
 #content {
   flex-basis: 85%;
+  padding: 20px;
 }
 </style>
